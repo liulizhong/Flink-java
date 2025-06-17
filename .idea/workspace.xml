@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a77a4ce-3afb-4641-b150-28f5a52ae630" name="Changes" comment="在公司上传">
+    <list default="true" id="2a77a4ce-3afb-4641-b150-28f5a52ae630" name="Changes" comment="测试1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/base/_7_第六章_Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/base/_7_第六章_Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/window/WindowProcessDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/window/WindowProcessDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_7_第六章_Window$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_7_第六章_Window$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_7_第六章_Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_7_第六章_Window.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +223,7 @@
       <option name="presentableId" value="Default" />
       <updated>1749288051940</updated>
       <workItem from="1749288052949" duration="45187000" />
-      <workItem from="1749863646052" duration="1510000" />
+      <workItem from="1749863646052" duration="6987000" />
     </task>
     <task id="LOCAL-00001" summary="在公司上传">
       <option name="closed" value="true" />
@@ -228,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749863750304</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="测试1">
+      <option name="closed" value="true" />
+      <created>1750120822012</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750120822012</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +249,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="在公司上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="在公司上传" />
+    <MESSAGE value="测试1" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

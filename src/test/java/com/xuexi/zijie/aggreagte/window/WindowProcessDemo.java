@@ -8,6 +8,7 @@ import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.datastream.WindowedStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.functions.windowing.ProcessWindowFunction;
+import org.apache.flink.streaming.api.functions.windowing.WindowFunction;
 import org.apache.flink.streaming.api.windowing.assigners.TumblingProcessingTimeWindows;
 import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.streaming.api.windowing.windows.TimeWindow;
@@ -36,23 +37,23 @@ public class WindowProcessDemo {
         WindowedStream<WaterSensor, String, TimeWindow> sensorWS = sensorKS.window(TumblingProcessingTimeWindows.of(Time.seconds(10)));
 
         // 老写法
-//        sensorWS
-//                .apply(
-//                        new WindowFunction<WaterSensor, String, String, TimeWindow>() {
-//                            /**
-//                             *
-//                             * @param s  分组的key
-//                             * @param window 窗口对象
-//                             * @param input 存的数据
-//                             * @param out   采集器
-//                             * @throws Exception
-//                             */
-//                            @Override
-//                            public void apply(String s, TimeWindow window, Iterable<WaterSensor> input, Collector<String> out) throws Exception {
-//
-//                            }
-//                        }
-//                )
+        sensorWS
+                .apply(
+                        new WindowFunction<WaterSensor, String, String, TimeWindow>() {
+                            /**
+                             *
+                             * @param s  分组的key
+                             * @param window 窗口对象
+                             * @param input 存的数据
+                             * @param out   采集器
+                             * @throws Exception
+                             */
+                            @Override
+                            public void apply(String s, TimeWindow window, Iterable<WaterSensor> input, Collector<String> out) throws Exception {
+
+                            }
+                        }
+                );
 
 
         SingleOutputStreamOperator<String> process = sensorWS
