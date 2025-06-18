@@ -1,8 +1,9 @@
 package com.xuexi.zijie.bean;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class WaterSensor {
+public class WaterSensor implements Serializable {
     public String id;
     public Long ts;
     public Integer vc;
@@ -61,4 +62,5 @@ public class WaterSensor {
     public int hashCode() {
         return Objects.hash(id, ts, vc);
     }
+
 }

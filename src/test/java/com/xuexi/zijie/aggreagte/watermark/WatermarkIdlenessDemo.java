@@ -1,8 +1,7 @@
 package com.xuexi.zijie.aggreagte.watermark;
 
+import com.xuexi.zijie.aggreagte.完成_partition.MyPartitioner;
 import com.xuexi.zijie.bean.WaterSensor;
-import com.atguigu.functions.WaterSensorMapFunction;
-import com.atguigu.partition.MyPartitioner;
 import org.apache.commons.lang3.time.DateFormatUtils;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;

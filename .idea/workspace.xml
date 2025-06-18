@@ -4,13 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a77a4ce-3afb-4641-b150-28f5a52ae630" name="Changes" comment="测试1">
+    <list default="true" id="2a77a4ce-3afb-4641-b150-28f5a52ae630" name="Changes" comment="20250617日提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/base/_7_第六章_Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/base/_7_第六章_Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/window/WindowProcessDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/window/WindowProcessDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/base/_8_第六章_watermark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/base/_8_第六章_watermark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/bean/WaterSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/bean/WaterSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/watermark/MyPeriodWatermarkGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/watermark/MyPeriodWatermarkGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/watermark/WatermarkCustomDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/watermark/WatermarkCustomDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/watermark/WatermarkIdlenessDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/watermark/WatermarkIdlenessDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/watermark/WatermarkLateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/watermark/WatermarkLateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/watermark/WatermarkMonoDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/watermark/WatermarkMonoDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/watermark/WatermarkOutOfOrdernessDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/watermark/WatermarkOutOfOrdernessDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/window/CountWindowDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_window/CountWindowDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/window/TimeWindowDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_window/TimeWindowDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/window/WindowAggregateAndProcessDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_window/WindowAggregateAndProcessDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/window/WindowAggregateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_window/WindowAggregateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/window/WindowApiDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_window/WindowApiDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/window/WindowProcessDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_window/WindowProcessDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/window/WindowReduceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_window/WindowReduceDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_7_第六章_Window$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_7_第六章_Window$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_7_第六章_Window$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_7_第六章_Window$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_7_第六章_Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_7_第六章_Window.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/bean/WaterSensor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/bean/WaterSensor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +97,9 @@
     "JUnit._6_第五章_sink.test1.executor": "Run",
     "JUnit._6_第五章_sink.test3.executor": "Run",
     "JUnit._7_第六章_Window.test2.executor": "Run",
+    "JUnit._8_第六章_watermark.test1.executor": "Run",
+    "JUnit._8_第六章_watermark.test3.executor": "Run",
+    "JUnit._8_第六章_watermark.test4.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.Flink-java [clean].executor": "Run",
     "Maven.Flink-java [compile].executor": "Run",
@@ -115,55 +132,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/input" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit._7_第六章_Window.test2">
-    <configuration name="_5_第五章_Partition_OutputStream_Union.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Flink-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuexi.zijie.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xuexi.zijie.base" />
-      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._5_第五章_Partition_OutputStream_Union" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_5_第五章_Partition_OutputStream_Union.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Flink-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuexi.zijie.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xuexi.zijie.base" />
-      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._5_第五章_Partition_OutputStream_Union" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_6_第五章_sink.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Flink-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuexi.zijie.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xuexi.zijie.base" />
-      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._6_第五章_sink" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit._8_第六章_watermark.test3">
     <configuration name="_6_第五章_sink.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Flink-java" />
       <extension name="coverage">
@@ -196,13 +165,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_8_第六章_watermark.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Flink-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuexi.zijie.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuexi.zijie.base" />
+      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._8_第六章_watermark" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_8_第六章_watermark.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Flink-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuexi.zijie.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuexi.zijie.base" />
+      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._8_第六章_watermark" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_8_第六章_watermark.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Flink-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuexi.zijie.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuexi.zijie.base" />
+      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._8_第六章_watermark" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._8_第六章_watermark.test3" />
+        <item itemvalue="JUnit._8_第六章_watermark.test4" />
+        <item itemvalue="JUnit._8_第六章_watermark.test1" />
         <item itemvalue="JUnit._7_第六章_Window.test2" />
         <item itemvalue="JUnit._6_第五章_sink.test3" />
-        <item itemvalue="JUnit._6_第五章_sink.test1" />
-        <item itemvalue="JUnit._5_第五章_Partition_OutputStream_Union.test3" />
-        <item itemvalue="JUnit._5_第五章_Partition_OutputStream_Union.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +240,7 @@
       <option name="presentableId" value="Default" />
       <updated>1749288051940</updated>
       <workItem from="1749288052949" duration="45187000" />
-      <workItem from="1749863646052" duration="6987000" />
+      <workItem from="1749863646052" duration="15576000" />
     </task>
     <task id="LOCAL-00001" summary="在公司上传">
       <option name="closed" value="true" />
@@ -241,16 +258,36 @@
       <option name="project" value="LOCAL" />
       <updated>1750120822012</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="20250617日提交">
+      <option name="closed" value="true" />
+      <created>1750127930246</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750127930246</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="在公司上传" />
     <MESSAGE value="测试1" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试1" />
+    <MESSAGE value="20250617日提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="20250617日提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

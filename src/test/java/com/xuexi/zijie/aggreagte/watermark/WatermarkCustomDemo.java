@@ -1,7 +1,7 @@
 package com.xuexi.zijie.aggreagte.watermark;
 
 import com.xuexi.zijie.bean.WaterSensor;
-import com.atguigu.functions.WaterSensorMapFunction;
+import com.xuexi.zijie.bean.WaterSensorMapFunction;
 import org.apache.commons.lang3.time.DateFormatUtils;
 import org.apache.flink.api.common.eventtime.WatermarkGenerator;
 import org.apache.flink.api.common.eventtime.WatermarkGeneratorSupplier;
@@ -39,9 +39,9 @@ public class WatermarkCustomDemo {
         WatermarkStrategy<WaterSensor> watermarkStrategy = WatermarkStrategy
                 // TODO 指定 自定义的 生成器
                 // 1.自定义的 周期性生成
-//                .<WaterSensor>forGenerator(ctx -> new MyPeriodWatermarkGenerator<>(3000L))
+                .<WaterSensor>forGenerator(ctx -> new MyPeriodWatermarkGenerator<>(3000L))
                 // 2.自定义的 断点式生成
-                .<WaterSensor>forGenerator(ctx -> new MyPuntuatedWatermarkGenerator<>(3000L))
+//                .<WaterSensor>forGenerator(ctx -> new MyPuntuatedWatermarkGenerator<>(3000L))
                 .withTimestampAssigner(
                         (element, recordTimestamp) -> {
                             return element.getTs() * 1000L;

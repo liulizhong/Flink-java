@@ -1,7 +1,7 @@
 package com.xuexi.zijie.aggreagte.watermark;
 
 import com.xuexi.zijie.bean.WaterSensor;
-import com.atguigu.functions.WaterSensorMapFunction;
+import com.xuexi.zijie.bean.WaterSensorMapFunction;
 import org.apache.commons.lang3.time.DateFormatUtils;
 import org.apache.flink.api.common.ExecutionConfig;
 import org.apache.flink.api.common.eventtime.SerializableTimestampAssigner;

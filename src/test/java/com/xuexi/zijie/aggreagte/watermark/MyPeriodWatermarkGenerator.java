@@ -12,6 +12,7 @@ import org.apache.flink.api.common.eventtime.WatermarkOutput;
  */
 public class MyPeriodWatermarkGenerator<T> implements WatermarkGenerator<T> {
 
+
     // 乱序等待时间
     private long delayTs;
     // 用来保存 当前为止 最大的事件时间
