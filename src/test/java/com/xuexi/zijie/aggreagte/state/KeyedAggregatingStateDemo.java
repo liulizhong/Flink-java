@@ -1,7 +1,7 @@
 package com.xuexi.zijie.aggreagte.state;
 
 import com.xuexi.zijie.bean.WaterSensor;
-import com.atguigu.functions.WaterSensorMapFunction;
+import com.xuexi.zijie.bean.WaterSensorMapFunction;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.api.common.functions.AggregateFunction;
 import org.apache.flink.api.common.functions.ReduceFunction;

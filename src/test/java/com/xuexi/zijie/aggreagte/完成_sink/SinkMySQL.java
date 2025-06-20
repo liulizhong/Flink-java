@@ -1,7 +1,7 @@
 package com.xuexi.zijie.aggreagte.完成_sink;
 
 import com.xuexi.zijie.bean.WaterSensor;
-import com.atguigu.functions.WaterSensorMapFunction;
+import com.xuexi.zijie.bean.WaterSensorMapFunction;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.connector.jdbc.JdbcConnectionOptions;
 import org.apache.flink.connector.jdbc.JdbcExecutionOptions;

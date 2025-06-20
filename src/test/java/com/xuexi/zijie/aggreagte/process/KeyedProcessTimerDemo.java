@@ -1,7 +1,7 @@
 package com.xuexi.zijie.aggreagte.process;
 
 import com.xuexi.zijie.bean.WaterSensor;
-import com.atguigu.functions.WaterSensorMapFunction;
+import com.xuexi.zijie.bean.WaterSensorMapFunction;
 import org.apache.commons.lang3.time.DateFormatUtils;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.streaming.api.TimerService;
@@ -113,15 +113,3 @@ public class KeyedProcessTimerDemo {
         env.execute();
     }
 }
-/**
- * TODO 定时器
- * 1、keyed才有
- * 2、事件时间定时器，通过watermark来触发的
- *    watermark >= 注册的时间
- *    注意： watermark = 当前最大事件时间 - 等待时间 -1ms， 因为 -1ms，所以会推迟一条数据
- *        比如， 5s的定时器，
- *        如果 等待=3s， watermark = 8s - 3s -1ms = 4999ms,不会触发5s的定时器
- *        需要 watermark = 9s -3s -1ms = 5999ms ，才能去触发 5s的定时器
- * 3、在process中获取当前watermark，显示的是上一次的watermark
- *    =》因为process还没接收到这条数据对应生成的新watermark
- */
