@@ -1,7 +1,7 @@
 package com.xuexi.zijie.aggreagte.完成_transfrom;
 
+import com.xuexi.zijie.aggreagte.完成_functions.MapFunctionImpl;
 import com.xuexi.zijie.bean.WaterSensor;
-import com.atguigu.functions.MapFunctionImpl;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
