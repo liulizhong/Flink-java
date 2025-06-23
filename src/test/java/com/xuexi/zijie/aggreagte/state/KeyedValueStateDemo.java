@@ -36,7 +36,7 @@ public class KeyedValueStateDemo {
                 );
 
         sensorDS.keyBy(r -> r.getId())
-                .process(
+                .process( //
                         new KeyedProcessFunction<String, WaterSensor, String>() {
 
                             // TODO 1.定义状态

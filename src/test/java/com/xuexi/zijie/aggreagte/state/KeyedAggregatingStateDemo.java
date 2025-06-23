@@ -41,7 +41,7 @@ public class KeyedAggregatingStateDemo {
                 );
 
         sensorDS.keyBy(r -> r.getId())
-                .process(
+                .process(//
                         new KeyedProcessFunction<String, WaterSensor, String>() {
 
                             AggregatingState<Integer, Double> vcAvgAggregatingState;

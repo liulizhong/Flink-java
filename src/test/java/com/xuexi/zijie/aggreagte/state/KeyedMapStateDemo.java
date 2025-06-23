@@ -64,7 +64,7 @@ public class KeyedMapStateDemo {
                                     // 1.2 如果不包含这个vc的key，初始化put进去
                                     vcCountMapState.put(vc, 1);
                                 }
-
+//
                                 // 2.遍历Map状态，输出每个k-v的值
                                 StringBuilder outStr = new StringBuilder();
                                 outStr.append("======================================\n");
@@ -72,7 +72,7 @@ public class KeyedMapStateDemo {
                                 for (Map.Entry<Integer, Integer> vcCount : vcCountMapState.entries()) {
                                     outStr.append(vcCount.toString() + "\n");
                                 }
-                                outStr.append("======================================\n");
+                                outStr.append("======================================\n");//
 
                                 out.collect(outStr.toString());
 

@@ -40,7 +40,7 @@ public class KeyedListStateDemo {
                 );
 
         sensorDS.keyBy(r -> r.getId())
-                .process(
+                .process( //
                         new KeyedProcessFunction<String, WaterSensor, String>() {
 
                             ListState<Integer> vcListState;

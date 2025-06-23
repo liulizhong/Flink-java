@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a77a4ce-3afb-4641-b150-28f5a52ae630" name="Changes" comment="20250620日提交">
+    <list default="true" id="2a77a4ce-3afb-4641-b150-28f5a52ae630" name="Changes" comment="20250621日提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/base/_11_第七章_ProcessFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/base/_11_第七章_ProcessFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/process/KeyedProcessFunctionTopNDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/process/KeyedProcessFunctionTopNDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/process/KeyedProcessTimerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/process/KeyedProcessTimerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/process/ProcessAllWindowTopNDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/process/ProcessAllWindowTopNDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/process/SideOutputDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/base/SideOutputDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_transfrom/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_transfrom/MapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_11_第七章_ProcessFunction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_11_第七章_ProcessFunction$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_11_第七章_ProcessFunction$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_11_第七章_ProcessFunction$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_11_第七章_ProcessFunction$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_11_第七章_ProcessFunction$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_11_第七章_ProcessFunction$4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_11_第七章_ProcessFunction$4$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_11_第七章_ProcessFunction$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_11_第七章_ProcessFunction$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_11_第七章_ProcessFunction$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_11_第七章_ProcessFunction$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_11_第七章_ProcessFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_11_第七章_ProcessFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/state/KeyedAggregatingStateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/state/KeyedAggregatingStateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/state/KeyedListStateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/state/KeyedListStateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/state/KeyedMapStateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/state/KeyedMapStateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/state/KeyedReducingStateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/state/KeyedReducingStateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/state/KeyedValueStateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/state/KeyedValueStateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/SideOutputDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/SideOutputDemo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +73,12 @@
     "JUnit._11_第七章_ProcessFunction.test2.executor": "Run",
     "JUnit._11_第七章_ProcessFunction.test3.executor": "Run",
     "JUnit._11_第七章_ProcessFunction.test4.executor": "Run",
+    "JUnit._12_第八章_state.test1.executor": "Run",
+    "JUnit._12_第八章_state.test2.executor": "Run",
+    "JUnit._12_第八章_state.test3.executor": "Run",
+    "JUnit._12_第八章_state.test4.executor": "Run",
+    "JUnit._12_第八章_state.test5.executor": "Run",
+    "JUnit._12_第八章_state分类.test6.executor": "Run",
     "JUnit._1_BatchWordCount.test1.executor": "Run",
     "JUnit._1_BatchWordCount.test2.executor": "Run",
     "JUnit._1_第二章_BatchWordCount.test3.executor": "Run",
@@ -135,79 +135,82 @@
       <recent name="$PROJECT_DIR$/src/main/resources/input" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit._11_第七章_ProcessFunction.test4">
-    <configuration name="SideOutputDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.aggreagte.完成_process.SideOutputDemo" />
+  <component name="RunManager" selected="JUnit._12_第八章_state分类.test6">
+    <configuration name="_12_第八章_state.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Flink-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuexi.zijie.aggreagte.完成_process.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_11_第七章_ProcessFunction.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Flink-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuexi.zijie.aggreagte.完成_process.*" />
+          <option name="PATTERN" value="com.xuexi.zijie.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xuexi.zijie.base" />
-      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._11_第七章_ProcessFunction" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_11_第七章_ProcessFunction.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Flink-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuexi.zijie.aggreagte.完成_process.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xuexi.zijie.base" />
-      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._11_第七章_ProcessFunction" />
+      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._12_第八章_state" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_11_第七章_ProcessFunction.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_12_第八章_state.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Flink-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuexi.zijie.aggreagte.完成_process.*" />
+          <option name="PATTERN" value="com.xuexi.zijie.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xuexi.zijie.base" />
-      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._11_第七章_ProcessFunction" />
+      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._12_第八章_state" />
       <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_11_第七章_ProcessFunction.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_12_第八章_state.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Flink-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuexi.zijie.aggreagte.完成_process.*" />
+          <option name="PATTERN" value="com.xuexi.zijie.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xuexi.zijie.base" />
-      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._11_第七章_ProcessFunction" />
+      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._12_第八章_state" />
       <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_12_第八章_state.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Flink-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuexi.zijie.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuexi.zijie.base" />
+      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._12_第八章_state" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_12_第八章_state分类.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Flink-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuexi.zijie.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuexi.zijie.base" />
+      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._12_第八章_state分类" />
+      <option name="METHOD_NAME" value="test6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -215,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit._11_第七章_ProcessFunction.test4" />
-        <item itemvalue="Application.SideOutputDemo" />
-        <item itemvalue="JUnit._11_第七章_ProcessFunction.test3" />
-        <item itemvalue="JUnit._11_第七章_ProcessFunction.test2" />
-        <item itemvalue="JUnit._11_第七章_ProcessFunction.test1" />
+        <item itemvalue="JUnit._12_第八章_state分类.test6" />
+        <item itemvalue="JUnit._12_第八章_state.test5" />
+        <item itemvalue="JUnit._12_第八章_state.test4" />
+        <item itemvalue="JUnit._12_第八章_state.test3" />
+        <item itemvalue="JUnit._12_第八章_state.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +244,7 @@
       <updated>1749288051940</updated>
       <workItem from="1749288052949" duration="45187000" />
       <workItem from="1749863646052" duration="24559000" />
-      <workItem from="1750380616388" duration="11055000" />
+      <workItem from="1750380616388" duration="18910000" />
     </task>
     <task id="LOCAL-00001" summary="在公司上传">
       <option name="closed" value="true" />
@@ -283,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750387481183</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="20250621日提交">
+      <option name="closed" value="true" />
+      <created>1750498028776</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750498028776</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +317,8 @@
     <MESSAGE value="20250617日提交" />
     <MESSAGE value="20250618日提交" />
     <MESSAGE value="20250620日提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="20250620日提交" />
+    <MESSAGE value="20250621日提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="20250621日提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

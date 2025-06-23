@@ -40,7 +40,7 @@ public class KeyedReducingStateDemo {
                 );
 
         sensorDS.keyBy(r -> r.getId())
-                .process(
+                .process( //
                         new KeyedProcessFunction<String, WaterSensor, String>() {
 
                             ReducingState<Integer> vcSumReducingState;
