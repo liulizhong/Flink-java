@@ -4,35 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a77a4ce-3afb-4641-b150-28f5a52ae630" name="Changes" comment="20250623日提交">
+    <list default="true" id="2a77a4ce-3afb-4641-b150-28f5a52ae630" name="Changes" comment="20250627日提交">
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flink-java.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/base/_12_第八章_state分类.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/base/_12_第八章_Keyed_State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/checkpoint/CheckpointConfigDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_checkpoint/CheckpointConfigDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/checkpoint/KafkaEOSDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_checkpoint/KafkaEOSDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/checkpoint/KafkaEOSDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_checkpoint/KafkaEOSDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/checkpoint/SavepointDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_checkpoint/SavepointDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/combine/ConnectDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_combine/ConnectDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/combine/ConnectKeybyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_combine/ConnectKeybyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/combine/UnionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_combine/UnionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/split/SideOutputDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_split/SideOutputDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/split/SplitByFilterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_split/SplitByFilterDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/sql/MyAggregateFunctionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/sql/MyAggregateFunctionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/sql/MyScalarFunctionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/sql/MyScalarFunctionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/sql/MyTableAggregateFunctionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/sql/MyTableAggregateFunctionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/sql/MyTableFunctionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/sql/MyTableFunctionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/sql/SqlDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/sql/SqlDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/sql/TableStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/sql/TableStreamDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/state/KeyedAggregatingStateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_state/KeyedAggregatingStateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/state/KeyedListStateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_state/KeyedListStateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/state/KeyedMapStateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_state/KeyedMapStateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/state/KeyedReducingStateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_state/KeyedReducingStateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/state/KeyedValueStateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_state/KeyedValueStateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/state/OperatorBroadcastStateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_state/OperatorBroadcastStateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/state/OperatorListStateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_state/OperatorListStateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/state/StateBackendDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_state/StateBackendDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/state/StateTTLDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_state/StateTTLDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_sink/SinkMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte/完成_sink/SinkMySQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/base/_15_第九章_checkpoint_savepoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/base/_15_第九章_checkpoint_savepoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_15_第九章_checkpoint_savepoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_15_第九章_checkpoint_savepoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_5_第五章_Partition_OutputStream_Union$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_5_第五章_Partition_OutputStream_Union$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_5_第五章_Partition_OutputStream_Union$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_5_第五章_Partition_OutputStream_Union$3.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +94,7 @@
     "JUnit._16_第十章_TableAPI_Function.test1.executor": "Run",
     "JUnit._16_第十章_TableAPI_Function.test2.executor": "Run",
     "JUnit._16_第十章_TableAPI_Function.test3.executor": "Run",
+    "JUnit._17_附一章_FlinkCEP.test1.executor": "Run",
     "JUnit._1_BatchWordCount.test1.executor": "Run",
     "JUnit._1_BatchWordCount.test2.executor": "Run",
     "JUnit._1_第二章_BatchWordCount.test3.executor": "Run",
@@ -146,21 +128,22 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/bytedance/Documents/sortware/workhouse/Flink-java",
+    "last_opened_file_path": "/Users/bytedance/Documents/sortware/workhouse/Flink-java/src/main/java/com/xuexi/zijie/base",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/base" />
       <recent name="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -169,13 +152,13 @@
       <recent name="$PROJECT_DIR$/src/main/resources/input" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit._16_第十章_TableAPI_Function.test3">
-    <configuration name="MyScalarFunctionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.aggreagte.完成_sql.MyScalarFunctionDemo" />
+  <component name="RunManager" selected="Application.LoginFailDetectExample">
+    <configuration name="LoginFailDetectExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.aggreagte.cep.LoginFailDetectExample" />
       <module name="Flink-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuexi.zijie.aggreagte.完成_sql.*" />
+          <option name="PATTERN" value="com.xuexi.zijie.aggreagte.cep.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,33 +166,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_15_第九章_checkpoint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginFailDetectProExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.aggreagte.cep.LoginFailDetectProExample" />
       <module name="Flink-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuexi.zijie.base.*" />
+          <option name="PATTERN" value="com.xuexi.zijie.aggreagte.cep.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuexi.zijie.base" />
-      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._15_第九章_checkpoint" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_16_第十章_TableAPI_Function.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Flink-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuexi.zijie.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xuexi.zijie.base" />
-      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._16_第十章_TableAPI_Function" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -246,13 +211,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_17_附一章_FlinkCEP.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Flink-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuexi.zijie.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuexi.zijie.base" />
+      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._17_附一章_FlinkCEP" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoginFailDetectExample" />
+        <item itemvalue="Application.LoginFailDetectProExample" />
+        <item itemvalue="JUnit._17_附一章_FlinkCEP.test1" />
         <item itemvalue="JUnit._16_第十章_TableAPI_Function.test3" />
         <item itemvalue="JUnit._16_第十章_TableAPI_Function.test2" />
-        <item itemvalue="Application.MyScalarFunctionDemo" />
-        <item itemvalue="JUnit._16_第十章_TableAPI_Function.test1" />
-        <item itemvalue="JUnit._15_第九章_checkpoint" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +255,8 @@
       <updated>1749288051940</updated>
       <workItem from="1749288052949" duration="45187000" />
       <workItem from="1749863646052" duration="24559000" />
-      <workItem from="1750380616388" duration="40874000" />
+      <workItem from="1750380616388" duration="42347000" />
+      <workItem from="1751780447836" duration="10789000" />
     </task>
     <task id="LOCAL-00001" summary="在公司上传">
       <option name="closed" value="true" />
@@ -340,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750647683789</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="20250627日提交">
+      <option name="closed" value="true" />
+      <created>1750996286827</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750996286827</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +355,8 @@
     <MESSAGE value="20250620日提交" />
     <MESSAGE value="20250621日提交" />
     <MESSAGE value="20250623日提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="20250623日提交" />
+    <MESSAGE value="20250627日提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="20250627日提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

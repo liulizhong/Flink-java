@@ -42,10 +42,10 @@ public class _15_第九章_checkpoint_savepoint {
      */
     @Test
     public void test1() throws Exception {
-        // 1. TODO 最终检查点：1.15开始，默认是true（在执行环境中配置）
+        // 1. TODO 最终检查点：1.15开始，默认是true（在执行环境中配置）：场景: 有界流的最后一条数据，不触发checkpoint，开启最终检查点就会触发最后一条数据后的checkpoint
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment(new Configuration().set(ENABLE_CHECKPOINTS_AFTER_TASKS_FINISH, false));
         env.setParallelism(1);
-        // 2. TODO 开启 Changelog （要求checkpoint的最大并发必须为1，其他参数建议在flink-conf配置文件中去指定）
+        // 2. TODO 开启 通用增量Changelog （要求checkpoint的最大并发必须为1，其他参数建议在flink-conf配置文件中去指定）
         env.enableChangelogStateBackend(true);
         // 3. 代码中用到hdfs，需要导入hadoop依赖、指定访问hdfs的用户名
         System.setProperty("HADOOP_USER_NAME", "zijie");
@@ -92,23 +92,23 @@ public class _15_第九章_checkpoint_savepoint {
 
 
     /**
-     *  KafkaEOSDemo
+     *  KafkaEOSDemo Kafka精准消费一次
      */
     @Test
     public void test2() throws Exception {
         // 获取env环境
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         // 代码中用到hdfs，需要导入hadoop依赖、指定访问hdfs的用户名
-        System.setProperty("HADOOP_USER_NAME", "atguigu");
+        System.setProperty("HADOOP_USER_NAME", "zijie");
         // TODO 1、启用检查点,设置为精准一次
-        env.enableCheckpointing(5000, CheckpointingMode.EXACTLY_ONCE);
+        env.enableCheckpointing(5000, CheckpointingMode.EXACTLY_ONCE); //指定精准消费一次模式
         CheckpointConfig checkpointConfig = env.getCheckpointConfig();
         checkpointConfig.setCheckpointStorage("hdfs://hadoop102:8020/chk");
         checkpointConfig.setExternalizedCheckpointCleanup(CheckpointConfig.ExternalizedCheckpointCleanup.RETAIN_ON_CANCELLATION); //取消作业时，checkpoint的数据 仍保留在外部系统
-        // TODO 2.读取kafka
+        // TODO 2.读取kafka【默认就是精准消费一次，无需特别指定】
         KafkaSource<String> kafkaSource = KafkaSource.<String>builder()
                 .setBootstrapServers("hadoop102:9092,hadoop103:9092,hadoop104:9092")
-                .setGroupId("atguigu")
+                .setGroupId("zijie")
                 .setTopics("topic_1")
                 .setValueOnlyDeserializer(new SimpleStringSchema())
                 .setStartingOffsets(OffsetsInitializer.latest())
@@ -135,10 +135,10 @@ public class _15_第九章_checkpoint_savepoint {
                                 .setValueSerializationSchema(new SimpleStringSchema())
                                 .build()
                 )
-                // TODO 3.1 精准一次,开启 2pc
+                // TODO 3.1 精准一次,开启 2pc（两阶段提交）
                 .setDeliveryGuarantee(DeliveryGuarantee.EXACTLY_ONCE)
                 // TODO 3.2 精准一次，必须设置 事务的前缀
-                .setTransactionalIdPrefix("atguigu-")
+                .setTransactionalIdPrefix("zijie-")
                 // TODO 3.3 精准一次，必须设置 事务超时时间: 大于checkpoint间隔，小于 max 15分钟
                 .setProperty(ProducerConfig.TRANSACTION_TIMEOUT_CONFIG, 10*60*1000+"")
                 .build();

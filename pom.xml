@@ -129,6 +129,41 @@
       <version>${flink.version}</version>
     </dependency>
 
+    <!-- 14、Flink-CDC 3.0 -->
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-java</artifactId>
+      <version>${flink.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-table-planner_2.12</artifactId>
+      <version>${flink.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-connector-base</artifactId>
+      <version>${flink.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ververica</groupId>
+      <artifactId>flink-connector-mysql-cdc</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+
+    <!-- 15、Flink-CEP -->
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-cep</artifactId>  <!-- 注意：没有 _2.12 -->
+      <version>${flink.version}</version>
+    </dependency>
+
+<!--    <dependency>-->
+<!--      <groupId>org.apache.flink</groupId>-->
+<!--      <artifactId>flink-cep_2.12</artifactId>-->
+<!--      <version>1.17.1</version>-->
+<!--    </dependency>-->
+
   </dependencies>
 
 
@@ -176,6 +211,14 @@
             </configuration>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>15</source>
+          <target>15</target>
+        </configuration>
       </plugin>
     </plugins>
   </build>
