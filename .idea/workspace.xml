@@ -4,16 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a77a4ce-3afb-4641-b150-28f5a52ae630" name="Changes" comment="20250627日提交">
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2a77a4ce-3afb-4641-b150-28f5a52ae630" name="Changes" comment="20250707日提交">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flink-java.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/base/_15_第九章_checkpoint_savepoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/base/_15_第九章_checkpoint_savepoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_15_第九章_checkpoint_savepoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_15_第九章_checkpoint_savepoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_5_第五章_Partition_OutputStream_Union$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_5_第五章_Partition_OutputStream_Union$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_5_第五章_Partition_OutputStream_Union$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_5_第五章_Partition_OutputStream_Union$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/base/_17_附一章_FlinkCEP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/base/_18_附一章_FlinkCEP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/bean/WaterSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/bean/WaterSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/bean/WaterSensorMapFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/bean/WaterSensorMapFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/电商实时项目4/realtime_publisher/service/SugarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/电商实时项目4/realtime_publisher/service/SugarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/电商实时项目4/realtime_publisher/service/impl/SugarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/电商实时项目4/realtime_publisher/service/impl/SugarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_17_附一章_FlinkCEP$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_17_附一章_FlinkCEP$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_17_附一章_FlinkCEP$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_17_附一章_FlinkCEP$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_17_附一章_FlinkCEP$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_17_附一章_FlinkCEP$LoginEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/base/_17_附一章_FlinkCEP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/bean/WaterSensor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/bean/WaterSensor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/bean/WaterSensorMapFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexi/zijie/bean/WaterSensorMapFunction.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +82,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
+    "Application.LoginFailDetectExample.executor": "Run",
+    "Application.LoginFailDetectProExample.executor": "Run",
     "Application.MyScalarFunctionDemo.executor": "Run",
     "Application.SideOutputDemo.executor": "Run",
     "Application._1_BatchWordCount.executor": "Run",
@@ -95,6 +105,8 @@
     "JUnit._16_第十章_TableAPI_Function.test2.executor": "Run",
     "JUnit._16_第十章_TableAPI_Function.test3.executor": "Run",
     "JUnit._17_附一章_FlinkCEP.test1.executor": "Run",
+    "JUnit._18_附一章_FlinkCEP.executor": "Run",
+    "JUnit._18_附一章_FlinkCEP.test1.executor": "Run",
     "JUnit._1_BatchWordCount.test1.executor": "Run",
     "JUnit._1_BatchWordCount.test2.executor": "Run",
     "JUnit._1_第二章_BatchWordCount.test3.executor": "Run",
@@ -128,7 +140,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/bytedance/Documents/sortware/workhouse/Flink-java/src/main/java/com/xuexi/zijie/base",
+    "last_opened_file_path": "/Users/bytedance/Documents/sortware/workhouse/Flink-java/src/main/java/com/xuexi/zijie/电商实时项目4/realtime_publisher",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -137,14 +149,18 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/base" />
-      <recent name="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/电商实时项目4/realtime_publisher" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/电商实时项目4/realtime_dws" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/电商实时项目4/realtime_dwd/trade/pay" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/xuexi/zijie/电商实时项目4/realtime_dwd/trade/order" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/com/xuexi/zijie/aggreagte" />
@@ -152,7 +168,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/input" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoginFailDetectExample">
+  <component name="RunManager" selected="JUnit._18_附一章_FlinkCEP.test1">
     <configuration name="LoginFailDetectExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.aggreagte.cep.LoginFailDetectExample" />
       <module name="Flink-java" />
@@ -179,38 +195,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_16_第十章_TableAPI_Function.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Flink-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuexi.zijie.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xuexi.zijie.base" />
-      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._16_第十章_TableAPI_Function" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_16_第十章_TableAPI_Function.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Flink-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuexi.zijie.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xuexi.zijie.base" />
-      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._16_第十章_TableAPI_Function" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="_17_附一章_FlinkCEP.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Flink-java" />
       <extension name="coverage">
@@ -227,13 +211,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_18_附一章_FlinkCEP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Flink-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuexi.zijie.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuexi.zijie.base" />
+      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._18_附一章_FlinkCEP" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_18_附一章_FlinkCEP.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Flink-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuexi.zijie.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuexi.zijie.base" />
+      <option name="MAIN_CLASS_NAME" value="com.xuexi.zijie.base._18_附一章_FlinkCEP" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._18_附一章_FlinkCEP.test1" />
+        <item itemvalue="JUnit._18_附一章_FlinkCEP" />
         <item itemvalue="Application.LoginFailDetectExample" />
         <item itemvalue="Application.LoginFailDetectProExample" />
         <item itemvalue="JUnit._17_附一章_FlinkCEP.test1" />
-        <item itemvalue="JUnit._16_第十章_TableAPI_Function.test3" />
-        <item itemvalue="JUnit._16_第十章_TableAPI_Function.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +271,8 @@
       <workItem from="1749288052949" duration="45187000" />
       <workItem from="1749863646052" duration="24559000" />
       <workItem from="1750380616388" duration="42347000" />
-      <workItem from="1751780447836" duration="10789000" />
+      <workItem from="1751780447836" duration="28776000" />
+      <workItem from="1752376766077" duration="11036000" />
     </task>
     <task id="LOCAL-00001" summary="在公司上传">
       <option name="closed" value="true" />
@@ -330,7 +346,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750996286827</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="20250707日提交">
+      <option name="closed" value="true" />
+      <created>1751857282237</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1751857282237</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +380,8 @@
     <MESSAGE value="20250621日提交" />
     <MESSAGE value="20250623日提交" />
     <MESSAGE value="20250627日提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="20250627日提交" />
+    <MESSAGE value="20250707日提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="20250707日提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

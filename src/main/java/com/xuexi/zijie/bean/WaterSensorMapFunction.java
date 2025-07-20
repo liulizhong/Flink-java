@@ -3,10 +3,7 @@ package com.xuexi.zijie.bean;
 import org.apache.flink.api.common.functions.MapFunction;
 
 /**
- * TODO
- *
- * @author cjp
- * @version 1.0
+ *  自定义MapFunction： 字符串映射到用户登陆类
  */
 public class WaterSensorMapFunction implements MapFunction<String,WaterSensor> {
     @Override

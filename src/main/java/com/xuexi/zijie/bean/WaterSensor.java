@@ -3,6 +3,9 @@ package com.xuexi.zijie.bean;
 import java.io.Serializable;
 import java.util.Objects;
 
+/**
+ *  用户登陆日志类
+ */
 public class WaterSensor implements Serializable {
     public String id;
     public Long ts;
